@@ -1,0 +1,25 @@
+public class Operator {
+
+		public static void main (String[] args)
+		{
+			int a,b,c,d,s;
+			boolean q1;
+			char sample;
+			a=22;
+			b=11;
+			c=a-b+33;//assign op
+			d=c*2-a;//arthmatic op
+			a+=5;//mult assign op
+			s=b++;//unary op
+			
+			System.out.println(a+" "+b+" "+c+" "+d+" "+s);
+			sample=(a<s && b>a && d<3)?'p':'f';//ternary op
+			System.out.println(sample);
+		    System.out.println(d&s);//bitwise op
+			System.out.println(a==c);//relation op
+			
+			q1=(s>3 || d<3);
+			System.out.println(q1);
+	}
+}
+		

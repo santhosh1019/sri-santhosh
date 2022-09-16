@@ -1,0 +1,25 @@
+public class dataTypes {
+public static void main(String[] args) {
+	byte Age = 55;
+	short AtmPin = 1568;
+	int Dob = 22112001;
+	long PhnNum = 6382376981L;
+	float ClgCgpa = 85.84774F;
+	double RegNum = 310818224260d;
+	char Initial = 'z';
+	String name = "jimjam";
+	boolean GivenDetails = true;
+	System.out.println(name);
+	System.out.println();
+	System.out.println(Initial);
+	System.out.println(Age);
+	System.out.println(RegNum);
+	System.out.println(Dob);
+	System.out.println(PhnNum);
+	System.out.println(AtmPin);
+	System.out.println(ClgCgpa);
+	System.out.println(GivenDetails);
+	
+}
+
+}
