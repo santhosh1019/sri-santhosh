@@ -1,0 +1,20 @@
+public class BiggerNumber {
+	
+		public static void main(String[] args) {
+			
+			int Dom,Tyson,David;
+			Dom=155;
+		    Tyson=165;
+			David=140;
+			if (Dom>Tyson && Dom>David) {
+				System.out.println("Dom is Heavy"+"-"+Dom+"kg");
+			}else if (Tyson>Dom && Tyson>David) {
+				System.out.println("Tyson is Heavy"+"-"+Tyson+"kg");
+			}else if (David>Dom && David>Tyson) {
+				System.out.println("David is Heavy"+"-"+David+"kg");
+			}else {
+				System.out.println("all are equal");
+			}
+		}
+
+	}
