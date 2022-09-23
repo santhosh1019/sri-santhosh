@@ -1,0 +1,52 @@
+package org.lab;
+
+public class TwoDArray {
+	public static void main(String[] args) {
+			
+       int a[][] = {{22,33,44},{23,34,45},{7,32,0}};
+       int b[][] = {{2,3,4},{2,1,5},{5,8,5}};
+       
+  // Addition     
+       int c [][] = new int [3][3];
+        for (int i=0;i<3;i++) {
+          for (int j=0;j<3;j++) {
+        	  c[i][j]= a[i][j] + b[i][j];
+        	  
+        	 System.out.print(c[i][j] +" ");
+          }
+        	 System.out.println();
+          }
+        System.out.println();
+        
+  //multiplication
+       	  int d [][] = new int [3][3];
+              for (int i=0;i<3;i++) {
+                for (int j=0;j<3;j++) {
+              	   d[i][j]= a[i][j]*b[i][j];
+              	  
+              	  System.out.print(d[i][j] +" ");
+                }
+                System.out.println();
+              }       	  
+    System.out.println(); 
+	
+	
+              
+	//transpose
+   
+   int e [][] = new int [3][3];
+	  for (int i=0;i<3;i++){
+		  for (int j=0;j<3;j++) {
+		
+		
+				  e[i][j] =a[j][i];
+				  System.out.print(e[i][j]+ " ");
+				  
+			  }
+                System.out.println();
+        
+		  }
+ 
+	  }
+ 
+	}
