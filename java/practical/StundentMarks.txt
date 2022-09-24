@@ -1,0 +1,42 @@
+import java.util.*;
+import java.util.Scanner;
+
+public class Students {
+ public static void main(String[] args) {
+	Scanner scanner = new Scanner(System.in);
+	int eng,phy,che,mat,cs,tot,avg;
+
+	System.out.println("Enter the Name");
+	System.out.println("Enter 5 subject Marks");
+	String name = scanner.nextLine();
+	eng = scanner.nextInt();	
+	phy = scanner.nextInt();
+	che = scanner.nextInt();
+	mat = scanner.nextInt();
+	 cs = scanner.nextInt();
+	 tot=eng+phy+che+mat+cs;
+	 avg=tot/5;
+	 System.out.println("name"+":"+name);	
+	 System.out.println("eng"+":"+eng);
+	 System.out.println("phy"+":"+phy); 
+	 System.out.println("che"+":"+che);	
+	 System.out.println("mat"+":"+mat);
+	 System.out.println("cs"+":"+cs);	
+	 System.out.println("tot"+":"+tot);		
+	 System.out.println("avg"+":"+avg);
+	 if(eng<40||phy<40||che<40||mat<40||cs<40) 
+			System.out.println("Result : Fail");
+	 if
+			else 
+				System.out.println("Result : pass");
+	
+		
+			
+				 
+					 
+		 
+	 }
+	 
+	  }
+ 
+			  	 
