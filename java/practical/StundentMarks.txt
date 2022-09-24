@@ -26,7 +26,6 @@ public class Students {
 	 System.out.println("avg"+":"+avg);
 	 if(eng<40||phy<40||che<40||mat<40||cs<40) 
 			System.out.println("Result : Fail");
-	 if
 			else 
 				System.out.println("Result : pass");
 	
