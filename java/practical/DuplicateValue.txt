@@ -1,0 +1,25 @@
+import java.util.HashMap;
+
+public class DuplicateValue {
+public static void main(String[] args) {
+	int Array[]=new int[10];
+	Array[0] = 21;
+	Array[1] = 54;
+	Array[2] = 99;
+	Array[3] = 33;
+	Array[4] = 45;
+	Array[5] = 22;
+	Array[6] = 99;
+	Array[7] = 33;
+	Array[8] = 22;
+	Array[9] = 54;
+	for (int i=0;i<Array.length;i++) {
+		for(int j=i+1;j<Array.length;j++) {
+			
+	if (Array[i]==Array[j])		
+	 System.out.println("Duplicate Value : "+Array[j]);		
+	
+   }
+  }
+ }
+}
