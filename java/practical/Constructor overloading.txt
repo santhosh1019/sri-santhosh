@@ -1,0 +1,22 @@
+
+class bankcus{
+	int acnum;
+	String acname;
+	double amt;
+	bankcus(int a,String b,double c){
+		acnum=a;
+		acname=b;
+		amt=c;
+	}void show(){
+		System.out.println(acnum+" "+acname+" "+amt);
+	}
+	
+}
+
+public class bank {
+	public static void main(String[] args) {
+		bankcus b=new bankcus(0123, "saving", 555.0);
+		b.show();
+	}
+
+}
